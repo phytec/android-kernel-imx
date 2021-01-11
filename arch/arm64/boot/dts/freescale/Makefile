@@ -92,7 +92,9 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mq-evk-dp.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-rmb3.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-zest.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-ddr3l-val.dtb imx8mq-ddr4-val.dtb imx8mq-ddr4-val-gpmi-nand.dtb
-dtb-$(CONFIG_ARCH_MXC) += imx8mq-phyboard-polaris-rdk-emmc.dtb
+dtb-$(CONFIG_ARCH_MXC) += imx8mq-phyboard-polaris-rdk-emmc.dtb \
+			  imx8mq-phyboard-polaris-rdk-emmc-sterling.dtb
+dtb-$(CONFIG_ARCH_MXC) += imx8qm-phycore-rdk.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8qm-mek.dtb imx8qm-mek-ov5640.dtb \
 			  imx8qm-mek-enet2-tja1100.dtb imx8qm-mek-rpmsg.dtb \
 			  imx8qm-mek-hdmi.dtb imx8qm-mek-dsp.dtb \
@@ -178,3 +180,4 @@ dtb-$(CONFIG_ARCH_MXC) += imx8qxp-mek-car.dtb imx8qxp-mek-car2.dtb imx8qxp-mek-o
 			  imx8qxp-mek-ov5640-rpmsg-no-dynamic_partition.dtb imx8qxp-mek-ov5640-rpmsg-no-product-no-dynamic_partition.dtb
 dtb-$(CONFIG_ARCH_S32) += s32v234-evb.dtb \
 			  s32v234-sbc.dtb
+
